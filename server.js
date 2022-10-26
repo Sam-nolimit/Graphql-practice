@@ -98,8 +98,6 @@ const RootQueryType = new GraphQLObjectType({
   }),
 });
 
-
-
 const RootMutationType = new GraphQLObjectType({
   name: "Mutation",
   description: "Root Mutation",
@@ -137,8 +135,6 @@ const RootMutationType = new GraphQLObjectType({
   }),
 });
 
-
-
 const schema = new GraphQLSchema({
   query: RootQueryType,
   mutation: RootMutationType,
@@ -152,4 +148,4 @@ app.use(
   })
 );
 
-app.listen(5000, () => console.log("server is running now effectively🌟"));
+app.listen(5000, () => console.log("server is running now effectively 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀💥"));
